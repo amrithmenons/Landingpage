@@ -1,0 +1,155 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #00357a;
+    box-shadow: 0 10px 5px rgba(0, 123, 190, 0.2);
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #b0d2ff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 123, 190, 0.2);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #009797;
+}
+
+header {
+    height: 100vh;
+    background-color: #7caeff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+section {
+    padding: 50px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(56, 127, 185);
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    margin: 20px 0;
+}
+
+.internship-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.internship-item {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #d8eafd;
+    padding: 20px;
+    border: 1px solid #a9bbd6;
+    border-radius: 10px;
+}
+
+.internship-item h3 {
+    margin: 0 0 10px;
+}
+
+.internship-item button {
+    padding: 10px;
+    border: none;
+    background-color: #627ed1;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.internship-item button:hover {
+    background-color: #013179;
+    box-shadow: 0 10px 5px rgba(0, 123, 190, 0.2);
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #a0c4ef;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px;
+    border: none;
+    background-color: #627ed1;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color
+}
+.footer-content{
+    padding: 10px;
+    padding-bottom:1cm;
+    border: none;
+    background-color: #ffffff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color
+
+}
